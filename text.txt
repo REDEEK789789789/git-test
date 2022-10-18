@@ -1,0 +1,20 @@
+git init
+git status
+git add index.html
+git add .
+git rm --cached index.html
+git commit -m "test commit"
+
+git branch
+git branch new_branch создать
+git checkout -b new_branch создать и переключить
+git branch -D new_branch удалить
+git checkout new_branch переключить
+
+
+$ git config --global user.email "you@example.com"
+
+$ git config --local -l
+
+3176291 'test commit'
+[master bf4fa9c] test commit 2
